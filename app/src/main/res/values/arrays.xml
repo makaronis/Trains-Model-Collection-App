@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_type_spinner">
+        <item>@string/type_locomotive</item>
+        <item>@string/type_wagon</item>
+    </string-array>
+    <string-array name="array_locomotive_spinner">
+        <item>@string/subtype_diesel</item>
+        <item>@string/subtype_electric</item>
+        <item>@string/subtype_steam</item>
+
+    </string-array>
+    <string-array name="array_wagon_spinner">
+        <item>@string/subtype_passenger</item>
+        <item>@string/subtype_freight</item>
+    </string-array>
+
+    <string-array name="array_search">
+        <item>@string/article</item>
+        <item>@string/modelName</item>
+        <item>@string/manufacturer</item>
+        <item>@string/railwayCompany</item>
+    </string-array>
+</resources>

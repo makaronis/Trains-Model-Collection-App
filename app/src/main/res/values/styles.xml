@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDarkDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDarkDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ListItemStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/rhodium_libre</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="EditorElements">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="EditorSpinner">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SearchSpinner">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EditorStyle">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:paddingLeft">6dp</item>
+    </style>
+    
+    <style name="EditTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MainMenuStyle">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+
+
+</resources>

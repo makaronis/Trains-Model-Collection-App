@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ChoCho</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings for menu options -->
+    <string name="saveAction">Save</string>
+    <string name="deleteAction">Delete</string>
+    <!-- Strings for Main Activity -->
+    <string name="allModels">All Models</string>
+    <string name="locomotives">Locomotives</string>
+    <string name="wagons">Wagons</string>
+    <string name="search">Search</string>
+    <!-- Strings for Editor Activity -->
+    <string name="image">Image</string>
+    <string name="type">Type</string>
+    <string name="subtype">SubType</string>
+    <string name="modelName">Model Name</string>
+    <string name="article">Article</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="railwayCompany">Railway Company</string>
+    <string name="note">Note</string>
+    <!-- Strings for Spinners -->
+    <string name="type_locomotive">Locomotive</string>
+    <string name="type_wagon">Wagon</string>
+    <string name="subtype_electric">Electric</string>
+    <string name="subtype_steam">Steam</string>
+    <string name="subtype_diesel">Diesel</string>
+    <string name="subtype_passenger">Passenger</string>
+    <string name="subtype_freight">Freight</string>
+    <!-- Strings for Menus -->
+    <string name="allTrains">All Models</string>
+    <string name="deleteDialog">Delete this model ?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="unsaved_changes_dialog">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+
+</resources>

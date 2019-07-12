@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.makaroni.chocho">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+
+        >
+        <activity
+            android:name="com.makaroni.chocho.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.makaroni.chocho.EditorActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.makaroni.chocho.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.makaroni.chocho.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.makaroni.chocho.ListActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.makaroni.chocho.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.makaroni.chocho.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.makaroni.chocho.SearchActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.makaroni.chocho.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.makaroni.chocho.MainActivity" />
+        </activity>
+        <provider
+            android:name="com.makaroni.chocho.data.TrainsProvider"
+            android:authorities="com.makaroni.chocho"
+            android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

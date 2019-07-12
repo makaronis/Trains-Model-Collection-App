@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/imageTrain"
+        android:background="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/imagetest"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageTrain"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/typeTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Steam"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/subTypeTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Locomotive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/typeTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/modelTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="class 770"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/typeTextView" />
+
+        <TextView
+            android:id="@+id/companyTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OBB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toEndOf="@+id/modelTextView"
+            app:layout_constraintTop_toBottomOf="@+id/subTypeTextView" />
+
+        <TextView
+            android:id="@+id/articleValueView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="756263"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toEndOf="@+id/articleTextView"
+            app:layout_constraintTop_toBottomOf="@+id/companyTextView" />
+
+        <TextView
+            android:id="@+id/articleTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginEnd="8dp"
+            android:text="Art. No.:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/modelTextView" />
+
+        <TextView
+            android:id="@+id/manufacturerTextView"
+            style="@style/ListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Roco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/articleTextView" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
